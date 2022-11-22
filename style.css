@@ -1,0 +1,316 @@
+body{
+    
+}
+#bgimg{
+    height:750px;
+}
+#bgimg-mob{
+    display:none;
+}
+.form1{
+    float:right;
+    display: center;
+    margin-top:15em;
+    margin-right:7em;
+}
+.complete{
+    float:right;
+    margin-top:17em;
+   
+}
+.tximg{
+    position:absolute;
+    top:10em;
+    right:29em;
+}
+.thankyou-header {
+    position:absolute;
+    right:7em;
+    font-size:3em;
+    text-transform: uppercase;
+  
+}
+.para{
+    position:relative;
+    right:9em;
+    top:2em;
+    font-size: 2em;
+    color: grey;
+}
+#continue{
+    position:relative;
+    right:16em;
+    top:6em;
+    
+
+}
+.container{
+    display: inline-block;
+    margin-left: -30em;
+
+    
+}
+.frontimage{
+    margin-left: 7em;
+    position: relative;
+    top:-10em;
+    
+}
+.backimage{
+    margin-left:11em;
+    margin-top:-3em;
+    position:relative;
+    bottom:6em ;
+    
+}
+
+.cvc{
+    position:absolute;
+    top:7em;
+    left:23em;
+    color: white;
+}
+.cardimg{
+    position:absolute;
+    top:2em;
+    left:2.5em;
+
+}
+.name{
+    position:absolute;
+    top:12em;
+    left:3em;
+    color: white;
+    text-transform: uppercase;
+}
+.monyear{
+    position:absolute;
+    top:12em;
+    left:23em;
+    color: white;
+}
+.sp{
+    position:absolute;
+    top:12em;
+    left:24em;
+    color: white;
+}
+.monyear1{
+    position:absolute;
+    top:12em;
+    left:24.5em;
+    color: white;
+}
+.cn{
+    position:absolute;
+    top:4em;
+    left:2.5em;
+    color:white;
+    font-size: 2em;
+    
+}
+input{
+    border: 3px solid #ccc;
+    box-sizing:border-box;
+    border-radius: 6px;
+    outline: none;
+    width:70%;
+    height: 3em;
+}
+input[type=text]:focus {
+    border: 2px solid rgb(89, 19, 201);
+  }
+#submit,#continue{
+    background-color: rgb(10, 10, 48);
+    color: white;
+    width:70%;
+    height:3em;
+    border-radius: 6px;
+  }
+  #submit:hover{
+    background-color: rgb(9, 9, 110);
+  }
+  #expdate,#expdate1{
+    width:17.5%;
+  }
+  #cvc1{
+    width:35%;
+  }
+  #nameerror,#numbererror,#cverror{
+    color:red;
+  }
+
+ .complete{
+    display:none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width:600px){
+    #bgimg{
+        display:none;
+    }
+    #bgimg-mob{
+        display:block;
+        width:100%;
+      
+
+ }
+ .container{
+    display: revert;
+    margin-left: -4.5em;
+
+
+    
+}
+.frontimage{
+    margin-left: 7em;
+    position: relative;
+    top:-6em;
+    z-index: 2;
+    max-width: 100%;
+    
+    
+}
+.fimg{
+    margin-left: -1.5em;
+    width:100%;
+}
+.backimage{
+    margin-left:9em;
+    margin-top:7.5em;
+    position:relative;
+    bottom:30.8em ;
+    z-index: 1;
+    max-width: 100%;
+    
+}
+.bimg{
+    width:100%;
+    margin-left:-0.5em;
+}
+.form1{
+    display: center;
+    margin-top:-20em;
+    margin-left:1em;
+}
+input{
+    border: 3px solid #ccc;
+    box-sizing:border-box;
+    border-radius: 6px;
+    outline: none;
+    width:130%;
+    height: 3em;
+}
+input[type=text]:focus {
+    border: 2px solid rgb(89, 19, 201);
+  }
+#submit,#continue{
+    background-color: rgb(10, 10, 48);
+    color: white;
+    width:130%;
+    height:3em;
+    border-radius: 6px;
+  }
+  #submit:hover{
+    background-color: rgb(9, 9, 110);
+  }
+  #expdate,#expdate1{
+    width:30%;
+  }
+  #cvc1{
+    width:36%;
+  }
+  #nameerror,#numbererror,#cverror{
+    color:red;
+  }
+
+ .complete{
+    display:none;
+ }
+ .complete{
+    margin-top:-20em;
+   
+}
+.tximg{
+    position:absolute;
+    top:24em;
+    left:9em;
+}
+.thankyou-header {
+    position:absolute;
+    left:4em;
+    bottom:6em;
+    font-size:2em;
+    text-transform: uppercase;
+  
+}
+.para{
+    position:relative;
+    left:-0.2em;
+    top:6em;
+    font-size: 1.8em;
+    color: grey;
+}
+#continue{
+    position:relative;
+    width:80%;
+    left:2em;
+    top:16em;
+    
+
+}
+.cvc{
+    position:absolute;
+    top:4.3em;
+    left:14em;
+    color: white;
+}
+.cardimg{
+    position:absolute;
+    top:1em;
+    left:0em;
+
+}
+.name{
+    position:absolute;
+    top:9em;
+    left:-0.5em;
+    color: white;
+    text-transform: uppercase;
+}
+.monyear{
+    position:absolute;
+    top:9em;
+    left:14em;
+    color: white;
+}
+.sp{
+    position:absolute;
+    top:9em;
+    left:15em;
+    color: white;
+}
+.monyear1{
+    position:absolute;
+    top:9em;
+    left:15.5em;
+    color: white;
+}
+.cn{
+    position:absolute;
+    top:4em;
+    left:1.5em;
+    color:white;
+    font-size: 1.5em;
+    
+}
+}
